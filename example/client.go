@@ -41,16 +41,16 @@ type BackendInfo struct {
 
 func main() {
 	bi := &BackendInfo{
-		Address: "www.domain.com:445",
+		Address: "ru-3.mitsuha-node.com:543",
 		Type:    "ssr",
 		SSInfo: SSInfo{
-			EncryptMethod:   "aes-128-cfb",
+			EncryptMethod:   "aes-256-ctr",
 			EncryptPassword: "password",
 			SSRInfo: SSRInfo{
-				Protocol:      "auth_aes128_sha1",
-				ProtocolParam: "",
+				Protocol:      "auth_aes128_md5",
+				ProtocolParam: "19181:ZNwFA7",
 				Obfs:          "tls1.2_ticket_auth",
-				ObfsParam:     "",
+				ObfsParam:     "HK2SCH13097a8f19181.wns.windows.com",
 			},
 		},
 	}

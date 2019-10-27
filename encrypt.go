@@ -13,7 +13,7 @@ import (
 	"github.com/chanceplus/shadowsocksR/tools"
 	"github.com/chanceplus/shadowsocksR/tools/leakybuf"
 
-	"gitlab.com/Yawning/chacha20"
+	"gitlab.com/Yawning/chacha20.git"
 	"github.com/dgryski/go-camellia"
 	"github.com/dgryski/go-idea"
 	"github.com/dgryski/go-rc2"
