@@ -11,8 +11,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/sun8911879/shadowsocksR/ssr"
-	"github.com/sun8911879/shadowsocksR/tools"
+	"github.com/chanceplus/shadowsocksR/ssr"
+	"github.com/chanceplus/shadowsocksR/tools"
 )
 
 type hmacMethod func(key []byte, data []byte) []byte

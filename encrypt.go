@@ -10,8 +10,8 @@ import (
 	"encoding/binary"
 	"errors"
 
-	"github.com/sun8911879/shadowsocksR/tools"
-	"github.com/sun8911879/shadowsocksR/tools/leakybuf"
+	"github.com/chanceplus/shadowsocksR/tools"
+	"github.com/chanceplus/shadowsocksR/tools/leakybuf"
 
 	"gitlab.com/Yawning/chacha20"
 	"github.com/dgryski/go-camellia"

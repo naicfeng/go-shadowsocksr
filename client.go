@@ -8,9 +8,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/sun8911879/shadowsocksR/obfs"
-	"github.com/sun8911879/shadowsocksR/protocol"
-	"github.com/sun8911879/shadowsocksR/ssr"
+	"github.com/chanceplus/shadowsocksR/obfs"
+	"github.com/chanceplus/shadowsocksR/protocol"
+	"github.com/chanceplus/shadowsocksR/ssr"
 )
 
 func NewSSRClient(u *url.URL) (*SSTCPConn, error) {
