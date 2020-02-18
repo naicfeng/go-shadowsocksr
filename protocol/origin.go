@@ -1,7 +1,7 @@
 package protocol
 
 import (
-	"github.com/chanceplus/shadowsocksR/ssr"
+	"github.com/sh4d0wfiend/go-shadowsocksr/ssr"
 )
 
 func init() {

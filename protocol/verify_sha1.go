@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"encoding/binary"
 
-	"github.com/chanceplus/shadowsocksR/ssr"
-	"github.com/chanceplus/shadowsocksR/tools"
+	"github.com/sh4d0wfiend/go-shadowsocksr/ssr"
+	"github.com/sh4d0wfiend/go-shadowsocksr/tools"
 )
 
 func init() {

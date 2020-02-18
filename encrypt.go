@@ -10,13 +10,13 @@ import (
 	"encoding/binary"
 	"errors"
 
-	"github.com/chanceplus/shadowsocksR/tools"
-	"github.com/chanceplus/shadowsocksR/tools/leakybuf"
+	"github.com/sh4d0wfiend/go-shadowsocksr/tools"
+	"github.com/sh4d0wfiend/go-shadowsocksr/tools/leakybuf"
 
-	"github.com/chanceplus/chacha20"
 	"github.com/dgryski/go-camellia"
 	"github.com/dgryski/go-idea"
 	"github.com/dgryski/go-rc2"
+	"gitlab.com/yawning/chacha20.git"
 	"golang.org/x/crypto/blowfish"
 	"golang.org/x/crypto/cast5"
 	"golang.org/x/crypto/salsa20/salsa"
